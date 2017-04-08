@@ -104,6 +104,18 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
+          <!-- 	LION HEART OS-->
+        <com.android.settings.DividerPreference
+                android:key="lhos_version"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="true"
+                android:title="@string/lhos_version"
+                android:summary="@string/lhos_version_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+
         <!-- Device firmware version -->
         <Preference android:key="firmware_version"
                 android:enabled="false"

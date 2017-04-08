@@ -226,7 +226,13 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         removePreferenceIfActivityMissing(
                 "safety_info", "android.settings.SHOW_SAFETY_AND_REGULATORY_INFO");
-    }
+
+          // Remove Some Stuffs
+        removePreference(KEY_SYSTEM_UPDATE_SETTINGS);
+        removePreference(KEY_MOD_VERSION);
+        removePreference(KEY_MOD_API_LEVEL);
+
+   }
 
     @Override
     public void onResume() {
